@@ -26,7 +26,7 @@ runner (void *arg)
 {
   // TODO: Replace this local variable with a pointer retrieved from the
   // struct passed as an argument.
-  int64_t *shared = calloc (1, sizeof (int64_t));
+  int64_t *shared = &arg->shared;
 
   // TODO: Use the lock in various places here to protect the increments and
   // decrements of the shared variable. Keep the for-loop structure as written,

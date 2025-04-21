@@ -1,0 +1,4 @@
+MIN_run_mutex                  FAIL (see outputs/MIN_run_mutex.diff for details)
+FULL_run_queue                 FAIL (see outputs/FULL_run_queue.diff for details)
+FULL_run_queue_and_mutex       FAIL (see outputs/FULL_run_queue_and_mutex.diff for details)
+No memory leak found.

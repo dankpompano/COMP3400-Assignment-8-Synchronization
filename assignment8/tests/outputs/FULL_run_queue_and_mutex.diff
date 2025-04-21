@@ -1,0 +1,32 @@
+--- outputs/FULL_run_queue_and_mutex.txt	2025-04-21 11:47:17.007997934 -0400
++++ expected/FULL_run_queue_and_mutex.txt	2020-04-17 17:22:24.000000000 -0400
+@@ -0,0 +1,29 @@
++Running mutual exclusion test
++Value of shared: 0
++Running a simulation of a synchronized FIFO queue
++Processing socket 0
++Processing socket 1
++Processing socket 2
++Processing socket 3
++Processing socket 4
++Processing socket 5
++Processing socket 6
++Processing socket 7
++Processing socket 8
++Processing socket 9
++Processing socket 10
++Processing socket 11
++Processing socket 12
++Processing socket 13
++Processing socket 14
++Processing socket 15
++Processing socket 16
++Processing socket 17
++Processing socket 18
++Processing socket 19
++Processing socket 20
++Processing socket 21
++Processing socket 22
++Processing socket 23
++Processing socket 24
++

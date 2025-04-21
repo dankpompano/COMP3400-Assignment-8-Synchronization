@@ -1,0 +1,2 @@
+Running mutual exclusion test
+Value of shared: 0

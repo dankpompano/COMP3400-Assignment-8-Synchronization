@@ -1,0 +1,5 @@
+--- outputs/MIN_run_mutex.txt	2025-04-21 11:47:15.971019870 -0400
++++ expected/MIN_run_mutex.txt	2020-04-17 17:22:24.000000000 -0400
+@@ -0,0 +1,2 @@
++Running mutual exclusion test
++Value of shared: 0

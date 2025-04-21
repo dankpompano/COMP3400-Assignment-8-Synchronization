@@ -1,0 +1,42 @@
+Running suite(s): Default
+======================================
+PUBLIC
+  MIN mutex run two threads
+  Call runner in two threads and ensure result is 0
+
+======================================
+PUBLIC
+  FULL worker
+  Create a queue of size 1
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+Processing socket 0
+
+28%: Checks: 7, Failures: 1, Errors: 4
+public.c:79:F:Public:MIN_mutex_run_two_threads_time:0: Assertion 'unidiff * 3 < multidiff' failed
+public.c:126:E:Public:FULL_prefilled:0: (after this point) Test timeout expired
+public.c:215:E:Public:FULL_queue_10:0: (after this point) Received signal 11 (Segmentation fault)
+public.c:230:E:Public:FULL_queue_20:0: (after this point) Received signal 11 (Segmentation fault)
+public.c:245:E:Public:FULL_queue_30:0: (after this point) Received signal 11 (Segmentation fault)
